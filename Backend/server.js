@@ -25,7 +25,7 @@ app.use(require('./config/checkToken'));
 
 
 // PUT API ROUTES HERE!, BEFORE THE 'CATCH ALL' ROUTE!!
-app.use('/api/users', require('./routes/api/users'));
+app.use('/api/users', require('./routes/users'));
 
 
 // The following "catch all" route (note the *) is necessary
